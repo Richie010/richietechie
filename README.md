@@ -14,7 +14,7 @@
 
 <br>
 
-<a href="https://github.com/Richie010">
+<a href="https://github.com/Richie010/richietechie/blob/main/README.md">
 <img src="https://img.shields.io/badge/GitHub-Richie010-181717?style=for-the-badge&logo=github"/>
 </a>
 
