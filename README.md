@@ -4,13 +4,14 @@
 
 ### 💻 Software Engineer | Backend Developer | Fintech | Electronics & Robotics
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&color=36BCF7&center=true&vCenter=true&width=800&lines=Java+%7C+Spring+Boot+%7C+Python+%7C+Embedded;Fintech+%7C+UPI+Payments+%7C+Corporate+Banking;Backend+Engineering+%7C+Microservices+%7C+Kafka;Building+Electronics+%26+Robotics+with+ESP32;Code+%2B+Hardware+%2B+Innovation+%F0%9F%9A%80" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&color=36BCF7&center=true&vCenter=true&width=800&lines=Java+%7C+Spring+Boot+%7C+Python+%7C+Embedded;Fintech+%7C+UPI+Payments+%7C+Corporate+Banking;Backend+Engineering+%7C+Microservices+%7C+Kafka;Redis+%7C+Aerospike+%7C+Database+Systems;Building+Electronics+%26+Robotics+with+ESP32;Code+%2B+Hardware+%2B+Innovation+%F0%9F%9A%80" />
 
 <br/>
 
 <img src="https://img.shields.io/badge/Backend-Java%20%7C%20Spring%20Boot-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
 <img src="https://img.shields.io/badge/Domain-Fintech-00C853?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/AI-Python%20%7C%20GenAI-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cache-Redis%20%7C%20Aerospike-DC382D?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Robotics-ESP32%20%7C%20Arduino-E7352C?style=for-the-badge&logo=arduino&logoColor=white"/>
 
 </div>
@@ -61,6 +62,20 @@
 <tr>
 <td width="50%" valign="top">
 
+### 🗄️ Data & Cache
+
+```text
+🐘 PostgreSQL
+🏛️ Oracle
+🔴 Redis
+⚡ Aerospike
+📨 Kafka
+```
+
+</td>
+
+<td width="50%" valign="top">
+
 ### 🛠️ Tools
 
 ```text
@@ -73,7 +88,9 @@
 ```
 
 </td>
+</tr>
 
+<tr>
 <td width="50%" valign="top">
 
 ### 🤖 Currently Building
@@ -86,6 +103,21 @@
 📡 Wi-Fi Control
 🚗 Robotic Systems
 🧠 Embedded Programming
+```
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🧠 Exploring
+
+```text
+🤖 Generative AI
+🔍 RAG
+🧠 LLMs
+⚡ AI Agents
+🐍 Python AI
+🔗 LangChain
 ```
 
 </td>
@@ -104,15 +136,29 @@
 
 <br/><br/>
 
-### 🗄️ Database & Messaging
+### 🗄️ Database
 
-<img src="https://skillicons.dev/icons?i=postgres,oracle,redis,kafka" />
+<img src="https://skillicons.dev/icons?i=postgres,oracle" />
+
+<br/><br/>
+
+### ⚡ Cache & Messaging
+
+<img src="https://skillicons.dev/icons?i=redis,kafka" />
+
+<br/>
+
+`Redis` &nbsp; • &nbsp; `Aerospike` &nbsp; • &nbsp; `Kafka`
 
 <br/><br/>
 
 ### 🛠️ Tools & Development
 
 <img src="https://skillicons.dev/icons?i=vscode,idea,git,github,docker,linux,arduino" />
+
+<br/>
+
+`VS Code` &nbsp; • &nbsp; `Spring Tool Suite` &nbsp; • &nbsp; `IntelliJ IDEA` &nbsp; • &nbsp; `Arduino IDE`
 
 </div>
 
@@ -168,6 +214,40 @@ Business Workflows
 
 <div align="center">
 
+# ⚡ BACKEND ARCHITECTURE
+
+```text
+                    🌐 CLIENT
+                        │
+                        ▼
+                 🚀 REST APIs
+                        │
+                        ▼
+              ☕ SPRING BOOT
+                        │
+              ┌─────────┼─────────┐
+              │         │         │
+              ▼         ▼         ▼
+          🧩 SERVICE   📨 KAFKA   ⚡ CACHE
+              │                   │
+              │             ┌─────┴─────┐
+              │             ▼           ▼
+              │          🔴 REDIS    ⚡ AEROSPIKE
+              │
+              ▼
+       ┌───────────────┐
+       │   DATABASE    │
+       │ PostgreSQL    │
+       │ Oracle        │
+       └───────────────┘
+```
+
+</div>
+
+---
+
+<div align="center">
+
 # 🤖 CURRENTLY BUILDING
 
 ## ⚡ ELECTRONICS & ROBOTICS
@@ -187,7 +267,7 @@ Business Workflows
 
 <div align="center">
 
-# 🧠 EXPLORING
+# 🧠 AI & GENAI
 
 `🤖 Generative AI` &nbsp; `🔍 RAG` &nbsp; `🧠 LLMs` &nbsp; `⚡ AI Agents`
 
@@ -205,7 +285,7 @@ Business Workflows
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="20%">
 
 ### 💻
 
@@ -217,7 +297,7 @@ Microservices
 
 </td>
 
-<td align="center" width="25%">
+<td align="center" width="20%">
 
 ### 💳
 
@@ -229,7 +309,19 @@ Banking
 
 </td>
 
-<td align="center" width="25%">
+<td align="center" width="20%">
+
+### ⚡
+
+**CACHE**
+
+Redis  
+Aerospike  
+Performance
+
+</td>
+
+<td align="center" width="20%">
 
 ### 🤖
 
@@ -241,9 +333,9 @@ AI Agents
 
 </td>
 
-<td align="center" width="25%">
+<td align="center" width="20%">
 
-### ⚡
+### 🔧
 
 **HARDWARE**
 
