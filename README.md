@@ -18,11 +18,11 @@
 <img src="https://img.shields.io/badge/GitHub-Richie010-181717?style=for-the-badge&logo=github"/>
 </a>
 
-<a href="#">
+<a href="https://www.linkedin.com/in/richard-j-220473214/">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
 
-<a href="mailto:your-email@example.com">
+<a href="richierichard2003@gmail.com">
 <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
